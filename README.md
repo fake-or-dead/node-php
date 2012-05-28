@@ -115,6 +115,7 @@ Issues &amp; Todos
 There are a few very important issues right now:
     
   - There is no POST handling. I'm not that far in the FCGI specs yet — need to find how to send data (post data)
+    (I fork this project to try to add this feature :) )
   - There is no **base** url. If you include ../../../../poop it will try to load it and most likely will fail.
   - If you try to load a file that the PHP-FPM worker does not have access to, it will fail silently and you will swear. A lot. By silently I mean, it will give you a 404 even though the files do exist.
 
